@@ -1,0 +1,12 @@
+[project]
+name = "mcpdemolangchain"
+version = "0.1.0"
+description = "A hands-on project demonstrating Model Context Protocol (MCP) servers, LangChain, LangGraph ReAct agents, and tool calling with Groq LLMs."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-groq>=1.1.3",
+    "langchain-mcp-adapters>=0.3.0",
+    "langgraph>=1.2.9",
+    "mcp>=1.28.1",
+]
